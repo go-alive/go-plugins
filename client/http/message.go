@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/micro/go-micro/v2/client"
+	"github.com/go-alive/go-micro/client"
 )
 
 type httpMessage struct {

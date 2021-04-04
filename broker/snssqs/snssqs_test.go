@@ -3,7 +3,7 @@ package snssqs
 import (
 	"testing"
 
-	"github.com/micro/go-micro/v2/broker"
+	"github.com/go-alive/go-micro/broker"
 )
 
 func TestValidate(t *testing.T) {

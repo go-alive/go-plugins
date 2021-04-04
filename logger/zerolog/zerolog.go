@@ -11,7 +11,7 @@ import (
 	zlog "github.com/rs/zerolog/log"
 	"github.com/rs/zerolog/pkgerrors"
 
-	"github.com/micro/go-micro/v2/logger"
+	"github.com/go-alive/go-micro/logger"
 )
 
 type Mode uint8

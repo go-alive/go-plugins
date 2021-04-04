@@ -1,6 +1,6 @@
 package http
 
-import "github.com/micro/go-micro/v2/codec"
+import "github.com/go-alive/go-micro/codec"
 
 type httpMessage struct {
 	topic       string

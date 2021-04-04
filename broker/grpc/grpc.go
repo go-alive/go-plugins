@@ -14,16 +14,16 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/config/cmd"
-	merr "github.com/micro/go-micro/v2/errors"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/cache"
-	maddr "github.com/micro/go-micro/v2/util/addr"
-	mnet "github.com/micro/go-micro/v2/util/net"
-	mls "github.com/micro/go-micro/v2/util/tls"
-	proto "github.com/micro/go-plugins/broker/grpc/v2/proto"
+	"github.com/go-alive/go-micro/broker"
+	"github.com/go-alive/go-micro/config/cmd"
+	merr "github.com/go-alive/go-micro/errors"
+	log "github.com/go-alive/go-micro/logger"
+	"github.com/go-alive/go-micro/registry"
+	"github.com/go-alive/go-micro/registry/cache"
+	maddr "github.com/go-alive/go-micro/util/addr"
+	mnet "github.com/go-alive/go-micro/util/net"
+	mls "github.com/go-alive/go-micro/util/tls"
+	proto "github.com/go-alive/go-plugins/broker/grpc/v2/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
@@ -62,7 +62,7 @@ type grpcEvent struct {
 }
 
 var (
-	registryKey = "github.com/micro/go-micro/v2/registry"
+	registryKey = "github.com/go-alive/go-micro/registry"
 
 	broadcastVersion = "ff.grpc.broadcast"
 	registerTTL      = time.Minute

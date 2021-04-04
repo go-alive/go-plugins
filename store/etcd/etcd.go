@@ -11,7 +11,7 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/clientv3/namespace"
-	"github.com/micro/go-micro/v2/store"
+	"github.com/go-alive/go-micro/store"
 	"github.com/pkg/errors"
 )
 

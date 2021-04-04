@@ -3,7 +3,7 @@ package logrus
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/micro/go-micro/v2/logger"
+	"github.com/go-alive/go-micro/logger"
 )
 
 type Options struct {

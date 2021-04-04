@@ -2,7 +2,7 @@ package apex
 
 import (
 	apexLog "github.com/apex/log"
-	log "github.com/micro/go-micro/v2/logger"
+	log "github.com/go-alive/go-micro/logger"
 )
 
 var (

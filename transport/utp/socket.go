@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/go-alive/go-micro/transport"
 )
 
 func (u *utpSocket) Local() string {

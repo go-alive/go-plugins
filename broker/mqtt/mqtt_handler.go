@@ -2,7 +2,7 @@ package mqtt
 
 import (
 	mqtt "github.com/eclipse/paho.mqtt.golang"
-	"github.com/micro/go-micro/v2/broker"
+	"github.com/go-alive/go-micro/broker"
 )
 
 // mqttPub is a broker.Event

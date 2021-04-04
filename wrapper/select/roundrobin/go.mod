@@ -1,5 +1,5 @@
-module github.com/micro/go-plugins/wrapper/select/roundrobin/v2
+module github.com/go-alive/go-plugins/wrapper/select/roundrobin
 
 go 1.13
 
-require github.com/micro/go-micro/v2 v2.9.1
+require github.com/go-alive/go-micro/v2 v2.9.1

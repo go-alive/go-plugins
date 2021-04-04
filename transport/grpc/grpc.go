@@ -2,9 +2,9 @@
 package grpc
 
 import (
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/transport"
-	"github.com/micro/go-micro/v2/transport/grpc"
+	"github.com/go-alive/go-micro/config/cmd"
+	"github.com/go-alive/go-micro/transport"
+	"github.com/go-alive/go-micro/transport/grpc"
 )
 
 func init() {

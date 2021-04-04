@@ -6,8 +6,8 @@ import (
 	"time"
 	"unicode"
 
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/store"
+	log "github.com/go-alive/go-micro/logger"
+	"github.com/go-alive/go-micro/store"
 	"github.com/pkg/errors"
 )
 

@@ -1,8 +1,8 @@
 package http
 
 import (
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/go-alive/go-micro/registry"
+	"github.com/go-alive/go-micro/server"
 )
 
 type httpHandler struct {

@@ -1,8 +1,8 @@
-module github.com/micro/go-plugins/logger/zap/v2
+module github.com/go-alive/go-plugins/logger/zap
 
 go 1.13
 
 require (
-	github.com/micro/go-micro/v2 v2.9.1
+	github.com/go-alive/go-micro/v2 v2.9.1
 	go.uber.org/zap v1.13.0
 )

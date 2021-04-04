@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/transport"
+	log "github.com/go-alive/go-micro/logger"
+	"github.com/go-alive/go-micro/transport"
 )
 
 func (u *utpListener) Addr() string {

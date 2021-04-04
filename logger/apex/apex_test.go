@@ -3,7 +3,7 @@ package apex
 import (
 	"testing"
 
-	log "github.com/micro/go-micro/v2/logger"
+	log "github.com/go-alive/go-micro/logger"
 )
 
 var (

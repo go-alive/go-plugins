@@ -5,10 +5,10 @@ import (
 	"net/http"
 
 	"github.com/asim/go-awsxray"
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/client"
-	xray "github.com/micro/go-plugins/wrapper/trace/awsxray/v2"
-	"github.com/micro/micro/v2/plugin"
+	"github.com/go-alive/cli"
+	"github.com/go-alive/go-micro/client"
+	xray "github.com/go-alive/go-plugins/wrapper/trace/awsxray/v2"
+	"github.com/go-alive/micro/plugin"
 )
 
 type awsXRay struct {

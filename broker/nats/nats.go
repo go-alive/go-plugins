@@ -2,9 +2,9 @@
 package memory
 
 import (
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/broker/nats"
-	"github.com/micro/go-micro/v2/config/cmd"
+	"github.com/go-alive/go-micro/broker"
+	"github.com/go-alive/go-micro/broker/nats"
+	"github.com/go-alive/go-micro/config/cmd"
 )
 
 func init() {

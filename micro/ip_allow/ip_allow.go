@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/cli/v2"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/micro/v2/plugin"
+	"github.com/go-alive/cli"
+	log "github.com/go-alive/go-micro/logger"
+	"github.com/go-alive/micro/plugin"
 )
 
 type allow struct {

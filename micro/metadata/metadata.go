@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/micro/v2/plugin"
+	"github.com/go-alive/cli"
+	"github.com/go-alive/go-micro/client"
+	"github.com/go-alive/micro/plugin"
 )
 
 type metadata struct {

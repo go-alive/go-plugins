@@ -11,14 +11,14 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/go-micro/v2/transport"
-	mp "github.com/micro/micro/v2/plugin"
+	"github.com/go-alive/go-micro/broker"
+	"github.com/go-alive/go-micro/client"
+	"github.com/go-alive/go-micro/client/selector"
+	"github.com/go-alive/go-micro/config/cmd"
+	"github.com/go-alive/go-micro/registry"
+	"github.com/go-alive/go-micro/server"
+	"github.com/go-alive/go-micro/transport"
+	mp "github.com/go-alive/micro/plugin"
 )
 
 // Plugin is a plugin loaded from a file

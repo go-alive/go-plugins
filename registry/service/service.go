@@ -2,9 +2,9 @@
 package service
 
 import (
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/service"
+	"github.com/go-alive/go-micro/config/cmd"
+	"github.com/go-alive/go-micro/registry"
+	"github.com/go-alive/go-micro/registry/service"
 )
 
 func init() {

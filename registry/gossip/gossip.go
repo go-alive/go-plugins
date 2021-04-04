@@ -16,11 +16,11 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/google/uuid"
 	"github.com/hashicorp/memberlist"
-	"github.com/micro/go-micro/v2/config/cmd"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
-	regutil "github.com/micro/go-micro/v2/util/registry"
-	pb "github.com/micro/go-plugins/registry/gossip/v2/proto"
+	"github.com/go-alive/go-micro/config/cmd"
+	log "github.com/go-alive/go-micro/logger"
+	"github.com/go-alive/go-micro/registry"
+	regutil "github.com/go-alive/go-micro/util/registry"
+	pb "github.com/go-alive/go-plugins/registry/gossip/v2/proto"
 	"github.com/mitchellh/hashstructure"
 )
 

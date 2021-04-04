@@ -3,8 +3,8 @@ package metadata
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/client"
-	meta "github.com/micro/go-micro/v2/metadata"
+	"github.com/go-alive/go-micro/client"
+	meta "github.com/go-alive/go-micro/metadata"
 )
 
 type wrapper struct {

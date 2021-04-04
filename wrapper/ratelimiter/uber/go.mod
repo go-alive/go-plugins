@@ -1,8 +1,8 @@
-module github.com/micro/go-plugins/wrapper/ratelimiter/uber/v2
+module github.com/go-alive/go-plugins/wrapper/ratelimiter/uber
 
 go 1.13
 
 require (
-	github.com/micro/go-micro/v2 v2.9.1
+	github.com/go-alive/go-micro/v2 v2.9.1
 	go.uber.org/ratelimit v0.1.0
 )

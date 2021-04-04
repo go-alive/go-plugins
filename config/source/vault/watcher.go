@@ -3,7 +3,7 @@ package vault
 import (
 	"errors"
 	"github.com/hashicorp/vault/api"
-	"github.com/micro/go-micro/v2/config/source"
+	"github.com/go-alive/go-micro/config/source"
 )
 
 type watcher struct {

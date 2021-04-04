@@ -4,8 +4,8 @@ package disable_rpc
 import (
 	"net/http"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/micro/v2/plugin"
+	"github.com/go-alive/cli"
+	"github.com/go-alive/micro/plugin"
 )
 
 type disable_rpc struct{}

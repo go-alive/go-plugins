@@ -7,10 +7,10 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec/json"
-	"github.com/micro/go-micro/v2/config/cmd"
-	log "github.com/micro/go-micro/v2/logger"
+	"github.com/go-alive/go-micro/broker"
+	"github.com/go-alive/go-micro/codec/json"
+	"github.com/go-alive/go-micro/config/cmd"
+	log "github.com/go-alive/go-micro/logger"
 )
 
 type kBroker struct {

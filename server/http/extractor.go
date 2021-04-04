@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/go-micro/v2/util/addr"
+	"github.com/go-alive/go-micro/registry"
+	"github.com/go-alive/go-micro/server"
+	"github.com/go-alive/go-micro/util/addr"
 )
 
 func serviceDef(opts server.Options) *registry.Service {

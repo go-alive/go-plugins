@@ -4,7 +4,7 @@ package configmap
 import (
 	"fmt"
 
-	"github.com/micro/go-micro/v2/config/source"
+	"github.com/go-alive/go-micro/config/source"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 )

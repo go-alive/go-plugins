@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/micro/go-plugins/registry/kubernetes/v2/client"
-	"github.com/micro/go-plugins/registry/kubernetes/v2/client/api"
-	"github.com/micro/go-plugins/registry/kubernetes/v2/client/watch"
+	"github.com/go-alive/go-plugins/registry/kubernetes/v2/client"
+	"github.com/go-alive/go-plugins/registry/kubernetes/v2/client/api"
+	"github.com/go-alive/go-plugins/registry/kubernetes/v2/client/watch"
 )
 
 // Client ...

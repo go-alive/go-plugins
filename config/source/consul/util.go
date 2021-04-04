@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/micro/go-micro/v2/config/encoder"
+	"github.com/go-alive/go-micro/config/encoder"
 )
 
 type configValue interface {

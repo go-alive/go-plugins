@@ -1,8 +1,8 @@
-module github.com/micro/go-plugins/broker/redis/v2
+module github.com/go-alive/go-plugins/broker/redis
 
 go 1.13
 
 require (
 	github.com/gomodule/redigo v2.0.0+incompatible
-	github.com/micro/go-micro/v2 v2.9.1
+	github.com/go-alive/go-micro/v2 v2.9.1
 )

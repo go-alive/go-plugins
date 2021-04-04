@@ -3,7 +3,7 @@ package stomp
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/broker"
+	"github.com/go-alive/go-micro/broker"
 )
 
 // Context related keys and funcs

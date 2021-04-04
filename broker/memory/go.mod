@@ -1,5 +1,5 @@
-module github.com/micro/go-plugins/broker/memory/v2
+module github.com/go-alive/go-plugins/broker/memory
 
 go 1.13
 
-require github.com/micro/go-micro/v2 v2.9.1
+require github.com/go-alive/go-micro/v2 v2.9.1

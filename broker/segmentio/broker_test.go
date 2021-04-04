@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/micro/go-micro/v2/broker"
-	segmentio "github.com/micro/go-plugins/broker/segmentio/v2"
+	"github.com/go-alive/go-micro/broker"
+	segmentio "github.com/go-alive/go-plugins/broker/segmentio/v2"
 )
 
 var (

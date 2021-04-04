@@ -5,14 +5,14 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/cli/v2"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/micro/v2/plugin"
+	"github.com/go-alive/cli"
+	log "github.com/go-alive/go-micro/logger"
+	"github.com/go-alive/micro/plugin"
 
 	// enterprise auth
-	"github.com/micro/go-plugins/micro/auth/v2/basic"
-	"github.com/micro/go-plugins/micro/auth/v2/digest"
-	"github.com/micro/go-plugins/micro/auth/v2/ldap"
+	"github.com/go-alive/go-plugins/micro/auth/v2/basic"
+	"github.com/go-alive/go-plugins/micro/auth/v2/digest"
+	"github.com/go-alive/go-plugins/micro/auth/v2/ldap"
 )
 
 type Auth struct {

@@ -1,7 +1,7 @@
 package gossip
 
 import (
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/go-alive/go-micro/registry"
 )
 
 type gossipWatcher struct {

@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/micro/go-micro/v2/config"
+	"github.com/go-alive/go-micro/config"
 )
 
 type Options struct {

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/micro/v2/plugin"
+	"github.com/go-alive/cli"
+	"github.com/go-alive/micro/plugin"
 	"github.com/rs/cors"
 )
 

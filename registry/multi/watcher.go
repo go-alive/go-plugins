@@ -3,7 +3,7 @@ package multi
 import (
 	"sync"
 
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/go-alive/go-micro/registry"
 )
 
 type multiWatcher struct {
